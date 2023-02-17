@@ -16,7 +16,7 @@ Note: `directory` and `folder` are interchangeable in the following tasks.
 4. Run the following:
 
 ```bash
-curl -o /home/fedora/feb-8/<your-named-directory>/joke.sh https://gist.githubusercontent.com/DS219/spring/9aedbaa80a92681cf271313ca29bd5aa/raw/a75f8cdf44b962eb57d25827514ad7cd323512db/dadjoke.sh
+curl -o /home/fedora/feb-8/<your-named-directory>/joke.sh https://raw.githubusercontent.com/DS219/spring-2023/main/joke.sh
 ```
 
 5. Use chmod to make it possible to run the command `/home/fedora/feb-8/<your-named-directory>/joke.sh`
