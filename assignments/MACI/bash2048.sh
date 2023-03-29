@@ -4,7 +4,7 @@
 # ./bash2048.sh or
 # sh bash2048.sh
 
-#!/usr/bin/env bash
+#!bin/bash
 
 #important variables
 declare -ia board    # array that keeps track of game status
