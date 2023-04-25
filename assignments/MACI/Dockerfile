@@ -1,6 +1,6 @@
 FROM fedora:latest
-WORKDIR /app
+WORKDIR app
 ADD bash2048.sh /app
 RUN chmod +x /app/bash2048.sh
-RUN cd /app 
-RUN sh bash2048.sh
+RUN dnf install -y ncurses
+CMD ./bash2048.sh
